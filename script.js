@@ -5,7 +5,7 @@ const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Fri
 const currentDate =new  Date();
 const day = currentDate.getDay();
 const currentDay = daysOfWeek[day];
-const currentTime = currentDate.getUTCMilliseconds()
+const currentTime = currentDate.toUTCString()
 
 currentDayOfTheWeek.textContent = currentDay;
 currentUtcTime.textContent = currentTime;
