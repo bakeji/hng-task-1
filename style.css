@@ -41,23 +41,13 @@ h1{
     color: #4A4E74;
 }
 
-.goals h2{
-    font-weight: 700;
-    font-size: 16px;
-    margin-bottom: 10px;
-    color: #F47D27;
-}
-ul{
+.goals{
     display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-left: 14px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-li{
-    list-style-type: none;
-    font-weight: 400;
-    font-size: 18px;
-}
+
 .link{
     display: flex;
     align-items: center;
@@ -78,6 +68,7 @@ li{
         padding-top: 0;
         margin:0;
     }
+   
 }
 
 
